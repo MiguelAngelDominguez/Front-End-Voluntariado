@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.btn {
+  font-family: "Montserrat", sans-serif;
+  padding: 1em 5em;
+  background-color: transparent;
+  border-radius: 0.2em;
+  margin-block: 0.4em;
+}
+
+.btnNormal {
+  background-color: #fff;
+  border-color: #14acef;
+  color: #14acef;
+  box-shadow: 1px 1px 5px #42bdf1;
+}
+
+.btnNormal:hover {
+  background-color: #14acef;
+  border-color: #14acef;
+  color: #fff;
+  transition: 0.5s all;
+}
+
+.btnLogin {
+  background-color: rgba(24, 28, 33, 0.9490196078);
+  border-color: rgba(24, 28, 33, 0.9490196078);
+  color: #fff;
+}
+
+.btnDark {
+  background-color: rgba(24, 28, 33, 0.9490196078);
+  border-color: #fff;
+  color: #fff;
+}
+
+.btnDark:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: rgba(24, 28, 33, 0.9019607843);
+  transition: 0.5s all;
+}
+
+.btnColInformation {
+  background-color: #fff;
+  border-color: rgba(24, 28, 33, 0.9019607843);
+  color: rgba(24, 28, 33, 0.9019607843);
+}
+
+.btnColInformation:hover {
+  background-color: rgba(24, 28, 33, 0.9490196078);
+  border-color: #fff;
+  color: #fff;
+  transition: 0.5s all;
+}/*# sourceMappingURL=button.css.map */

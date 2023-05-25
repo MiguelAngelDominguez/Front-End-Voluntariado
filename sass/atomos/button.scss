@@ -1,0 +1,73 @@
+@import "./color.scss";
+@import "./fonts.scss";
+
+@mixin buttonParametros($backgroudColor, $color, $borderColor){
+    background-color: $backgroudColor;
+    border-color: $borderColor;
+    color: $color;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em 5em;
+    background-color: transparent;
+    border-radius: 0.2em;
+    margin-block: 0.4em;
+}
+
+.btnNormal{
+    @include buttonParametros(
+        $colorButtonConteiner_1,
+        $colorButtonDefault,
+        $colorButtonDefault);
+    box-shadow: 1px 1px 5px $colorBoxShadow;
+}
+
+.btnNormal:hover{
+    @include buttonParametros(
+        $colorButtonDefault,
+        $colorTextEspacial,
+        $colorButtonDefault);
+    transition: 0.5s all;
+}
+
+.btnLogin{
+    @include buttonParametros(
+        $colorButtonLogi,
+        $colorTextEspacial,
+        $colorButtonLogin);
+}
+
+.btnDark{
+    @include buttonParametros(
+        $colorButtonLogin,
+        $colorTextEspacial,
+        $colorButtonConteiner_1);
+}
+
+.btnDark:hover{
+    @include buttonParametros(
+        $colorButtonConteiner_1,
+        $colorButtonConteiner_2,
+        $colorButtonConteiner_1);
+    transition: 0.5s all;
+}
+
+.btnColInformation{
+    @include buttonParametros(
+        $colorButtonConteiner_1,
+        $colorButtonConteiner_2,
+        $colorButtonConteiner_2);
+    // background-color: ;
+}
+
+.btnColInformation:hover{
+    @include buttonParametros(
+        $colorButtonLogin,
+        $colorTextEspacial,
+        $colorButtonConteiner_1);
+    transition: 0.5s all;
+}
+
+
+
