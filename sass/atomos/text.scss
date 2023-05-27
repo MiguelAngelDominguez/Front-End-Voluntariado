@@ -1,21 +1,35 @@
 @import url('./fonts.scss');
 @import url('./color.scss');
 
-.title-h1{
-    font-family: 'Montserrat', sans-serif;
+@mixin title-h1($family,$weight, $size){
+    font-family: $family;
+    font-weight: $weight;
+    font-size: $size;
 }
 
 .s1{
-    font-weight: 600;
-    font-size: 1.3em;
+    @include title-h1(
+        'Montserrat',
+        500,
+        1.5em); 
 }
 
 .s2{
-    font-weight: 800;
-    font-size: 3em;
+    @include title-h1(
+        'Arial',
+        600 ,
+        2em);
 }
 
 .s3{
-    font-weight: 800;
-    font-size: 4em;
+    @include title-h1(
+        'Arial',
+        800,
+        4em);
+}
+
+
+a{
+    text-decoration: none;
+    color: #000 
 }
