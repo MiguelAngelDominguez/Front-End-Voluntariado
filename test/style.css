@@ -22,3 +22,8 @@ h1,h2,h3,h4,h5{
     padding: 3em 5em;
     background-color: #ff0000;
 }
+
+.sectionText-title{
+    background-color: #000;
+    margin-inline: auto;
+}
