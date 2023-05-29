@@ -1,10 +1,14 @@
-@import url('./fonts.scss');
-@import url('./color.scss');
+@import './fonts.scss';
+@import './color.scss';
 
 @mixin title-h1($family,$weight, $size){
     font-family: $family;
     font-weight: $weight;
     font-size: $size;
+}
+
+.s1,.s2,.s3{
+    color: $colorTextEspacial;
 }
 
 .s1{
@@ -26,10 +30,55 @@
         'Arial',
         800,
         4em);
+    padding-inline: 0.2em;
+    background-color: $backgroundColorRed;
+    width: min-content;
+    height:0.53em;
+    display: flex;
+    flex-direction: column-reverse;
 }
-
 
 a{
     text-decoration: none;
-    color: #000 
+    color: #000;
+}
+
+.nav{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav .nav-header{
+    margin-inline: 1.4em;
+    color: $colorTextEspacial;
+    font-size: 1.3em;
+    padding-block-end: 1em;
+    box-sizing: border-box;
+}
+
+.nav .nav-header:hover{
+    padding-block-end: 1em - 0.14em;
+    border-block-end: 0.14em solid $colorTextEspacial;
+}
+
+.subTexto{
+    .s4{
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        .normalize{
+            color: $backgroundColorBlack;
+        }
+        .textImportan{
+            color: $backgroundColorRed;
+        }
+
+        .normalize, .textImportan{
+            margin-inline-end: 0.8em;
+        }
+    }
+}
+
+.titleVideo{
+    font-family: 'Montserrat', sans-serif;
+    color: $backgroundColorBlack;
 }
