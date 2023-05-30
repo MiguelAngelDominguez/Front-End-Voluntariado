@@ -82,3 +82,24 @@ a{
     font-family: 'Montserrat', sans-serif;
     color: $backgroundColorBlack;
 }
+
+.titleBlue{
+    font-size: 3.4em;
+    background-color: $backgroundColorBlue;
+    font-family: 'Montserrat', sans-serif;
+    width: min-content;
+}
+
+.numberEst{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $backgroundColorRed;
+    font-size: 3em;
+    color: $colorTextEspacial;
+    width: min-content;
+    font-weight: 600;
+}
+
+
+
+
+
