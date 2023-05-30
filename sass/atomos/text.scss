@@ -99,7 +99,33 @@ a{
     font-weight: 600;
 }
 
+.voluntario-information{
+    font-family: 'Montserrat', sans-serif;
+    color: $backgroundColorBlack;
+    display: flex;
+    .voluntario-name, .voluntario-ubication{
+        font-weight: 600;
+        margin-inline: 0.5em;
+    }
+    .normalText{
+        font-weight: 400;
+    }
+}
+
+.voluntario-fecha{
+    font-family: 'Montserrat', sans-serif;
+    color: $colorFontTitle;
+}
+
+.s3-secctionLead{
+    height: max-content;
+    margin: 0;
+}
 
 
-
-
+.s3-blue{
+    width: fit-content;
+    font-size: 1.5em;
+    background-color: $backgroundColorBlue;
+    color: $backgroundColorBlack;
+}

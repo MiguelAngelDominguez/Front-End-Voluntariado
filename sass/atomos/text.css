@@ -90,4 +90,36 @@ a {
   width: -moz-min-content;
   width: min-content;
   font-weight: 600;
+}
+
+.voluntario-information {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(24, 28, 33, 0.9019607843);
+  display: flex;
+}
+.voluntario-information .voluntario-name, .voluntario-information .voluntario-ubication {
+  font-weight: 600;
+  margin-inline: 0.5em;
+}
+.voluntario-information .normalText {
+  font-weight: 400;
+}
+
+.voluntario-fecha {
+  font-family: "Montserrat", sans-serif;
+  color: #4e5155;
+}
+
+.s3-secctionLead {
+  height: -moz-max-content;
+  height: max-content;
+  margin: 0;
+}
+
+.s3-blue {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.5em;
+  background-color: #14acef;
+  color: rgba(24, 28, 33, 0.9019607843);
 }/*# sourceMappingURL=text.css.map */
