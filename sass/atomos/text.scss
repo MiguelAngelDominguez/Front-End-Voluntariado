@@ -87,7 +87,7 @@ a{
     font-size: 3.4em;
     background-color: $backgroundColorBlue;
     font-family: 'Montserrat', sans-serif;
-    width: min-content;
+    width: max-content;
 }
 
 .numberEst{
@@ -124,8 +124,30 @@ a{
 
 
 .s3-blue{
-    width: fit-content;
+    width: max-content;
     font-size: 1.5em;
     background-color: $backgroundColorBlue;
     color: $backgroundColorBlack;
+}
+
+.footer-links{
+    display: grid;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    a{
+        color: $colorTextEspacial;
+    }
+    .footer-redes__link{
+        margin: 0.4em 1em;
+    }
+    .footer-redesSociales{
+        .footer-redes__img i{
+            transform: scale(1.4);
+            margin: 1.2em 1em;
+        }
+        .footer-redes__img{
+            display: flex;
+            align-items: center;
+        }
+    }
 }

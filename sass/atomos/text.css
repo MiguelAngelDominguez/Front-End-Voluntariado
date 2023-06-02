@@ -78,8 +78,8 @@ a {
   font-size: 3.4em;
   background-color: #14acef;
   font-family: "Montserrat", sans-serif;
-  width: -moz-min-content;
-  width: min-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .numberEst {
@@ -117,9 +117,29 @@ a {
 }
 
 .s3-blue {
-  width: -moz-fit-content;
-  width: fit-content;
+  width: -moz-max-content;
+  width: max-content;
   font-size: 1.5em;
   background-color: #14acef;
   color: rgba(24, 28, 33, 0.9019607843);
+}
+
+.footer-links {
+  display: grid;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-links a {
+  color: #fff;
+}
+.footer-links .footer-redes__link {
+  margin: 0.4em 1em;
+}
+.footer-links .footer-redesSociales .footer-redes__img i {
+  transform: scale(1.4);
+  margin: 1.2em 1em;
+}
+.footer-links .footer-redesSociales .footer-redes__img {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=text.css.map */
