@@ -31,3 +31,9 @@ h1,h2,h3,h4,h5{
 .section-lead{
     background-color: #4e5155;   
 }
+
+.footer{
+    background-color: #4e5155;
+    padding-block: 2em;
+}
+
