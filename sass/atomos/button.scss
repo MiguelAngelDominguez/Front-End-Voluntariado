@@ -33,7 +33,7 @@
 
 .btnLogin{
     @include buttonParametros(
-        $colorButtonLogi,
+        $colorButtonLogin,
         $colorTextEspacial,
         $colorButtonLogin);
 }
@@ -69,5 +69,24 @@
     transition: 0.5s all;
 }
 
+.form-register a, .form-login a{
+    font-weight: 500;
+    font-family: 'Montserrat', system-ui, -apple-system;
+    color: $colorTextEspacial;
+}
 
+.form-register{
+    .form-register-btn{
+        padding: 1em 3.5em;
+        background-color: $colorFontTitle;
+        border-block-end: 0.6em solid $colorBorberRegister;
+    }
+}
 
+.form-login{
+    .form-login-btn{
+        padding: 1em 3.5em;
+        background-color: $colorFontImportan;
+        border-block-end: 0.6em solid $colorBorderLogin;
+    }
+}

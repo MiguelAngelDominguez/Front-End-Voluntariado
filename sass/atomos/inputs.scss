@@ -1,0 +1,15 @@
+@import "./color.scss";
+
+.form-register input{
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form-register-input{
+    padding: 0.5em 3em;
+    border-radius: 40%;
+    border: 0.3em solid $colorBorberRegister ;
+}
