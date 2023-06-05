@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
+.btn {
+  font-family: "Montserrat", sans-serif;
+  padding: 1em 5em;
+  background-color: transparent;
+  border-radius: 0.2em;
+  margin-block: 0.4em;
+}
+
+.btnNormal {
+  background-color: #fff;
+  border-color: #14acef;
+  color: #14acef;
+  box-shadow: 1px 1px 5px #42bdf1;
+}
+
+.btnNormal:hover {
+  background-color: #14acef;
+  border-color: #14acef;
+  color: #fff;
+  transition: 0.5s all;
+}
+
+.btnLogin {
+  background-color: rgba(24, 28, 33, 0.9490196078);
+  border-color: rgba(24, 28, 33, 0.9490196078);
+  color: #fff;
+}
+
+.btnDark {
+  background-color: rgba(24, 28, 33, 0.9490196078);
+  border-color: #fff;
+  color: #fff;
+}
+
+.btnDark:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: rgba(24, 28, 33, 0.9019607843);
+  transition: 0.5s all;
+}
+
+.btnColInformation {
+  background-color: #fff;
+  border-color: rgba(24, 28, 33, 0.9019607843);
+  color: rgba(24, 28, 33, 0.9019607843);
+}
+
+.btnColInformation:hover {
+  background-color: rgba(24, 28, 33, 0.9490196078);
+  border-color: #fff;
+  color: #fff;
+  transition: 0.5s all;
+}
+
+.form-register a, .form-login a {
+  font-weight: 500;
+  font-family: "Montserrat", system-ui, -apple-system;
+  color: #fff;
+}
+
+.form-register .form-register-btn {
+  padding: 1em 3.5em;
+  background-color: #4e5155;
+  -webkit-border-after: 0.6em solid #434343;
+          border-block-end: 0.6em solid #434343;
+}
+
+.form-login .form-login-btn {
+  padding: 1em 3.5em;
+  background-color: #eb0029;
+  -webkit-border-after: 0.6em solid #c43131;
+          border-block-end: 0.6em solid #c43131;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-register-input {
+  font-family: "Montserrat", sans-serif;
+  width: 23em;
+  text-align: center;
+  padding: 1em 0.2em;
+  border: transparent;
+  border-radius: 3em;
+  margin-block: 1.3em 0.5em;
+}
+
+.form {
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(24, 28, 33, 0.9019607843);
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "registro login" "form form" "buton buton";
+}
+.form .form-register, .form .form-login {
+  display: flex;
+}
+.form .form-register {
+  grid-area: registro;
+}
+.form .form-login {
+  grid-area: login;
+}
+.form .form-register- {
+  grid-area: form;
+  display: grid;
+  justify-content: center;
+}
+.form .btnLogin {
+  grid-area: buton;
+}/*# sourceMappingURL=formulario.css.map */

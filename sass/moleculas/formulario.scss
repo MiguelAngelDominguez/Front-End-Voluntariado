@@ -1,0 +1,32 @@
+@import "../atomos/button.scss";
+@import "../atomos/inputs.scss";
+
+.form{
+    width: max-content;
+    background-color: $backgroundColorBlack;
+    display: grid;
+    justify-items: center;  
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:"registro login"
+                        "form form"
+                        "buton buton";
+    .form-register, .form-login{
+        display: flex;
+    }
+    .form-register{
+        grid-area: registro;
+    }
+    .form-login{
+        grid-area: login;
+    }
+    .form-register-{
+        grid-area: form;
+        display: grid;
+        justify-content: center;
+    }
+    .btnLogin{
+        grid-area: buton;
+    }
+}
+
