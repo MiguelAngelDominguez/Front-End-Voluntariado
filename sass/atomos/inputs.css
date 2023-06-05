@@ -1,13 +1,14 @@
-.form-register input {
-  border: none;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
 input:focus {
   outline: none;
 }
 
 .form-register-input {
-  padding: 0.5em 3em;
-  border-radius: 40%;
-  border: 0.3em solid #434343;
+  font-family: "Montserrat", sans-serif;
+  width: 23em;
+  text-align: center;
+  padding: 1em 0.2em;
+  border: transparent;
+  border-radius: 3em;
+  margin-block: 1.3em 0.5em;
 }/*# sourceMappingURL=inputs.css.map */
