@@ -1,4 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
+.btn {
+  font-family: "Montserrat", sans-serif;
+  padding: 1em 5em;
+  background-color: transparent;
+  border-radius: 0.2em;
+  margin-block: 0.4em;
+}
+
+.btnNormal {
+  background-color: #fff;
+  border-color: #14acef;
+  color: #14acef;
+  box-shadow: 1px 1px 5px #42bdf1;
+}
+
+.btnNormal:hover {
+  background-color: #14acef;
+  border-color: #14acef;
+  color: #fff;
+  transition: 0.5s all;
+}
+
+.btnLogin {
+  background-color: rgba(24, 28, 33, 0.9490196078);
+  border-color: rgba(24, 28, 33, 0.9490196078);
+  color: #fff;
+  border: transparent;
+}
+
+.btnDark {
+  background-color: rgba(24, 28, 33, 0.9490196078);
+  border-color: #fff;
+  color: #fff;
+}
+
+.btnDark:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: rgba(24, 28, 33, 0.9019607843);
+  transition: 0.5s all;
+}
+
+.btnColInformation {
+  background-color: #fff;
+  border-color: rgba(24, 28, 33, 0.9019607843);
+  color: rgba(24, 28, 33, 0.9019607843);
+}
+
+.btnColInformation:hover {
+  background-color: rgba(24, 28, 33, 0.9490196078);
+  border-color: #fff;
+  color: #fff;
+  transition: 0.5s all;
+}
+
+.form-register a, .form-login a {
+  font-weight: 500;
+  font-family: "Montserrat", system-ui, -apple-system;
+  color: #fff;
+}
+
+.form-register .form-register-btn {
+  padding: 1em 3.5em;
+  background-color: #4e5155;
+  -webkit-border-after: 0.6em solid #434343;
+          border-block-end: 0.6em solid #434343;
+}
+
+.form-login .form-login-btn {
+  padding: 1em 3.5em;
+  background-color: #eb0029;
+  -webkit-border-after: 0.6em solid #c43131;
+          border-block-end: 0.6em solid #c43131;
+}
+
+.slide-information_img {
+  width: 25em;
+}
+
 .s1, .s2, .s3 {
   color: #fff;
 }
@@ -102,7 +182,7 @@ a {
   margin-inline: 0.5em;
 }
 
-.normalText {
+.nomalText {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
@@ -146,20 +226,17 @@ a {
   align-items: center;
 }
 
-.footer-logo img {
-  width: 15em;
+.card {
+  width: -moz-min-content;
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4em 0.5em;
 }
-
-.footer-nav img {
-  width: 13em;
-  padding: 1em;
+.card .textVideo .titleVideo {
+  margin-block: 0.4em;
 }
-
-.nav {
-  background-color: #eb0029;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}/*# sourceMappingURL=navegador.css.map */
+.card .nomalText {
+  color: rgba(24, 28, 33, 0.9019607843);
+  margin-block: 0.7em;
+}/*# sourceMappingURL=card.css.map */

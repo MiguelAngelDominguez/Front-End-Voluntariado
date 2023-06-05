@@ -26,6 +26,7 @@
   background-color: rgba(24, 28, 33, 0.9490196078);
   border-color: rgba(24, 28, 33, 0.9490196078);
   color: #fff;
+  border: transparent;
 }
 
 .btnDark {
@@ -95,8 +96,8 @@ input:focus {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas: "registro login" "form form" "buton buton";
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "registro login" "form form" "texto texto" "buton buton";
 }
 .form .form-register, .form .form-login {
   display: flex;
@@ -112,6 +113,15 @@ input:focus {
   display: grid;
   justify-content: center;
 }
+.form .form-newPasword {
+  grid-area: texto;
+}
 .form .btnLogin {
   grid-area: buton;
+  -webkit-margin-after: 2em;
+          margin-block-end: 2em;
+}
+.form .form-newPasword {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=formulario.css.map */

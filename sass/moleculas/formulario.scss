@@ -7,9 +7,10 @@
     display: grid;
     justify-items: center;  
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-template-areas:"registro login"
                         "form form"
+                        "texto texto"
                         "buton buton";
     .form-register, .form-login{
         display: flex;
@@ -25,8 +26,15 @@
         display: grid;
         justify-content: center;
     }
+    .form-newPasword{
+        grid-area: texto;
+    }
     .btnLogin{
         grid-area: buton;
+        margin-block-end: 2em;
+    }
+    .form-newPasword{
+        color: $colorTextEspacial;
+        font-family: 'Montserrat', sans-serif;
     }
 }
-
