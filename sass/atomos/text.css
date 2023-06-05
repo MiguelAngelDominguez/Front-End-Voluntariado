@@ -101,7 +101,9 @@ a {
   font-weight: 600;
   margin-inline: 0.5em;
 }
-.voluntario-information .normalText {
+
+.nomalText {
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
