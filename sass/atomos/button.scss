@@ -1,9 +1,13 @@
 @import "./color.scss";
 @import "./fonts.scss";
 
+button{
+    border: initial;
+}
+
 @mixin buttonParametros($backgroudColor, $color, $borderColor){
     background-color: $backgroudColor;
-    border-color: $borderColor;
+    border: 0.1em solid $borderColor;
     color: $color;
 }
 
@@ -13,6 +17,7 @@
     background-color: transparent;
     border-radius: 0.2em;
     margin-block: 0.4em;
+    box-shadow: 0em 0.4em 0.6em $box-shadow-gray;
 }
 
 .btnNormal{
@@ -21,6 +26,7 @@
         $colorButtonDefault,
         $colorButtonDefault);
     box-shadow: 1px 1px 5px $colorBoxShadow;
+    text-shadow: 0em 0.5em 0.5em $box-shadow-gray;
 }
 
 .btnNormal:hover{
@@ -28,7 +34,7 @@
         $colorButtonDefault,
         $colorTextEspacial,
         $colorButtonDefault);
-    transition: 0.5s all;
+    transition: 0.2s all;
 }
 
 .btnLogin{
