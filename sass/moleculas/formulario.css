@@ -10,14 +10,14 @@
 
 .btnNormal {
   background-color: #fff;
-  border-color: #14acef;
-  color: #14acef;
+  border-color: #39B06E;
+  color: #39B06E;
   box-shadow: 1px 1px 5px #42bdf1;
 }
 
 .btnNormal:hover {
-  background-color: #14acef;
-  border-color: #14acef;
+  background-color: #39B06E;
+  border-color: #39B06E;
   color: #fff;
   transition: 0.5s all;
 }

@@ -1,0 +1,23 @@
+.item-user {
+  display: grid;
+  grid-column-gap: 0.5em;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "imagen information" "imagen fecha";
+  justify-content: start;
+  align-items: center;
+}
+.item-user .item-user-img {
+  grid-area: imagen;
+  display: flex;
+}
+.item-user .voluntario-information {
+  grid-area: information;
+}
+.item-user .voluntario-information .voluntario-name {
+  -webkit-margin-start: 0em;
+          margin-inline-start: 0em;
+}
+.item-user .voluntario-fecha {
+  grid-area: fecha;
+}/*# sourceMappingURL=item-user.css.map */
