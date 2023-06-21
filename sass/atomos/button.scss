@@ -15,7 +15,7 @@ button{
     font-family: 'Montserrat', sans-serif;
     padding: 1em 5em;
     background-color: transparent;
-    border-radius: 0.2em;
+    border-radius: 0.45em;
     margin-block: 0.4em;
     box-shadow: 0em 0.4em 0.6em $box-shadow-gray;
 }
@@ -57,7 +57,7 @@ button{
         $colorButtonConteiner_1,
         $colorButtonConteiner_2,
         $colorButtonConteiner_1);
-    transition: 0.5s all;
+    transition: 0.2s all;
 }
 
 .btnColInformation{
@@ -73,7 +73,7 @@ button{
         $colorButtonLogin,
         $colorTextEspacial,
         $colorButtonConteiner_1);
-    transition: 0.5s all;
+    transition: 0.2s all;
 }
 
 .form-register a, .form-login a{

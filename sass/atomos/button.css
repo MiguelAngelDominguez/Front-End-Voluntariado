@@ -7,7 +7,7 @@ button {
   font-family: "Montserrat", sans-serif;
   padding: 1em 5em;
   background-color: transparent;
-  border-radius: 0.2em;
+  border-radius: 0.45em;
   margin-block: 0.4em;
   box-shadow: 0em 0.4em 0.6em rgba(0, 0, 0, 0.4745098039);
 }
@@ -44,7 +44,7 @@ button {
   background-color: #fff;
   border: 0.1em solid #fff;
   color: rgba(24, 28, 33, 0.9019607843);
-  transition: 0.5s all;
+  transition: 0.2s all;
 }
 
 .btnColInformation {
@@ -57,7 +57,7 @@ button {
   background-color: rgba(24, 28, 33, 0.9490196078);
   border: 0.1em solid #fff;
   color: #fff;
-  transition: 0.5s all;
+  transition: 0.2s all;
 }
 
 .form-register a, .form-login a {
