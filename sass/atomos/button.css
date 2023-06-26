@@ -13,16 +13,16 @@ button {
 }
 
 .btnNormal {
-  background-color: #fff;
-  border: 0.1em solid #10984C;
-  color: #10984C;
+  background-color: #f1595c;
+  border: 0.1em solid #fff;
+  color: #f1595c;
   box-shadow: 1px 1px 5px #39B06E;
   text-shadow: 0em 0.5em 0.5em rgba(0, 0, 0, 0.4745098039);
 }
 
 .btnNormal:hover {
-  background-color: #10984C;
-  border: 0.1em solid #10984C;
+  background-color: #f1595c;
+  border: 0.1em solid #f1595c;
   color: #fff;
   transition: 0.2s all;
 }

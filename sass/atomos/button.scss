@@ -22,9 +22,9 @@ button{
 
 .btnNormal{
     @include buttonParametros(
-        $colorButtonConteiner_1,
         $colorButtonDefault,
-        $colorButtonDefault);
+        $colorButtonDefault,
+        $colorButtonConteiner_1);
     box-shadow: 1px 1px 5px $colorBoxShadow;
     text-shadow: 0em 0.5em 0.5em $box-shadow-gray;
 }
