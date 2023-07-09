@@ -1,3 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: var(--bold);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.13em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.811em;
+}
+
+.caja {
+  border-radius: 0.6em;
+}
+
+:root {
+  --fontFamily: "Raleway", sans-serif;
+  --phink: #FF0054;
+  --phinkBlack: #800F2F;
+  --greenBluish: #06D6A0;
+  --greenBluish2: #06D6A0CC;
+  --blueVibrant: #4361EE;
+  --yellow: #FFE500;
+  --red: #D00000;
+  --red2: #D00000CC;
+  --greenLime: #2DC653;
+  --greenLime2: #2DC653CC;
+  --orange: #F48C06;
+  --orange2: #F48C06CC;
+  --white: #FFFFFF;
+  --grayWhite: #F3F3F3;
+  --black: #000000;
+  --blockTransparents: #000000CC;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+}
+
 .a-button {
   display: flex;
 }/*# sourceMappingURL=main.css.map */
