@@ -6,13 +6,12 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../sass/atomos/main.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://css.gg/css?=|facebook|instagram|youtube" rel="stylesheet">
     <title>Document</title>
 </head>
 <style>
-    .caja{
-        width: 12em;
+    ._1{
         height: 12em;
         background-color: black;
     }
@@ -21,9 +20,24 @@
     <h2>
         Cajas - Radius - 10px
     </h2>
-    <div class="caja">
+    <div class="caja _1">
     </div>
     <br>
+
+    <h2>
+        header
+    </h2>
+    <div class="header_logo">
+        <img src="../source/imgs/logos/logo.png" alt="" class="logo_img">
+        <span class="logo_text">
+            LIA
+        </span>
+    </div>
+    <span class="header_burger">
+        <svg class="--white w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </span>
 
     <h2>
         Texto
@@ -33,26 +47,89 @@
     <h3>h3 Encabezado</h3>
     <h4>h4 Encabezado</h4>
     <h5>h5 Encabezado</h5>
+    <p class="text-normal-section">
+        Hola
+    </p>
     <br>
 
     <h2>
         Titulos
     </h2>
+    <div style="background-color: black;">
+        <h1 class="title-presentation --white">
+            ¡Únete como voluntario!
+        </h1>
+        <p class="text-presentation">
+            Conéctate con organizaciones locales, colabora en iniciativas que impacten positivamente a la comunidad y sé parte del cambio.
+        </p>
+        <h2 class="title-help --white">
+            ¿Cómo quieres ayudar?
+        </h2>
 
-    
+        <div class="title-promovate --white">
+            <h2>
+                Quiero ser <span class="--end">voluntario</span>
+            </h2>
+        </div>
+    </div>
+    <div class="title-section">
+        <h2>Únete a la comunidad de <span class="--end">ELI</span></h2>
+    </div>
+
+    <div class="title-information-line">
+        <h2>
+            ¿Qué beneficios brinda la plataforma de LIA?
+        </h2>
+    </div>
+
+    <div class="text-number">
+        <p>+120k</p>
+    </div>
+
+    <br>
+
+    <h2>Imagenes</h2>
+    <img src="../source/imgs/volunteering 2.png" alt="" class="image-loveVoluntare">
+    <br>
+    <img src="../source/imgs/group 1.png" alt="" class="image-groupMen">
+    <br>
+    <img src="../source/imgs/user_icon.png" alt="" class="image-profile-user caja-shadow">
 
     <h2>Botones</h2>
-    <a href="" class="a-button --promote">
-        <span class="material-symbols-outlined">
-            thumb_up
-        </span>
-        <p class="text-normal --text">
-            QUIERO SER VOLUNTARIO
-        </p>
-        <span class="material-symbols-outlined">
-            keyboard_double_arrow_right
-        </span>
-    </a>
+    <div style="background-color: black;padding: 3em 0.5em;">
+        <a href="" class="a-button btn-voluntario caja">
+            <span class="material-symbols-outlined icon">
+                thumb_up
+            </span>
+            <p class="text-normal --text">
+                <span class="--start">QUIERO</span> SER VOLUNTARIO
+            </p>
+            <span class="material-symbols-outlined icon">
+                keyboard_double_arrow_right
+            </span>
+        </a>
+
+        <a href="" class="a-button btn-voluntariados caja">
+            <p class="text-normal --white">
+                Ver voluntariados
+            </p>
+        </a>
+    </div>
+    <h2>footer's</h2>
+    <div class="_1">
+        <div>
+            <a href="" class="footer_link --white">Organizaciones</a>
+        </div>
+        <div class="footer_text-importan --white">
+            Contáctanos
+        </div>
+        <div class="footer_content_icon --white">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 14">
+                <path fill-rule="evenodd" d="M19.7 3.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.84c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.84A4.225 4.225 0 0 0 .3 3.038a30.148 30.148 0 0 0-.2 3.206v1.5c.01 1.071.076 2.142.2 3.206.094.712.363 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.15 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965c.124-1.064.19-2.135.2-3.206V6.243a30.672 30.672 0 0 0-.202-3.206ZM8.008 9.59V3.97l5.4 2.819-5.4 2.8Z" clip-rule="evenodd"/>
+            </svg>
+        </div>
+    </div>
+    
 </body>
 
 </html>
