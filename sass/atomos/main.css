@@ -34,8 +34,17 @@ h5 {
   font-size: 0.811em;
 }
 
+p {
+  font-size: 1em;
+  font-weight: var(--regular);
+}
+
 .caja {
   border-radius: 0.6em;
+}
+
+.caja-shadow {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 :root {
@@ -62,6 +71,140 @@ h5 {
   --bold: 700;
 }
 
-.a-button {
+.--white {
+  color: white;
+}
+
+.title-presentation {
+  text-align: center;
+}
+
+.title-help {
+  text-align: center;
+}
+
+.text-presentation {
+  color: var(--grayWhite);
+  text-align: center;
+}
+
+.title-section .--end {
+  color: var(--phink);
+}
+
+.title-promovate {
+  text-align: center;
+}
+.title-promovate .--end {
+  color: var(--phink);
+}
+
+.title-information-line {
+  text-align: center;
+  padding-inline: 1.5em;
+}
+.title-information-line h2 {
+  border-block-end: 0.25em solid var(--phink);
+  padding-block-end: 0.65em;
+}
+
+.text-number {
+  color: var(--greenBluish);
+  font-size: 2em;
+}
+.text-number p {
+  font-weight: var(--bold);
+}
+
+.text-normal-section {
+  font-weight: var(--regular);
+}
+
+.footer_link {
+  opacity: 80%;
+  font-weight: var(--regular);
+}
+
+.footer_text-importan {
+  font-weight: var(--semibold);
+  font-size: 1.5em;
+}
+
+.image-loveVoluntare {
+  width: 4.94em;
+  height: 4.94em;
+}
+
+.image-groupMen {
+  width: 6.45em;
+  height: 6.45em;
+}
+
+.image-profile-user {
+  border-radius: 50%;
+  width: 7.5em;
+  height: 7.5em;
+}
+
+.header_logo {
   display: flex;
+  align-items: center;
+}
+.header_logo .logo_img {
+  margin: 0.5em;
+  width: 2.7em;
+}
+.header_logo .logo_text {
+  font-size: 2.7em;
+  color: var(--phink);
+  font-weight: var(--bold);
+}
+
+.header_burger {
+  background-color: var(--phink);
+  border-radius: 0.4em;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5em;
+}
+.header_burger svg {
+  width: 2em;
+}
+
+.footer_content_icon {
+  margin: 0.5em;
+  width: 2em;
+}
+
+.a-button {
+  width: max-content;
+  padding: 0.9em 0.9em;
+  margin: 0.4em 0.2em;
+}
+.a-button .text-normal {
+  font-weight: var(--bold);
+  font-size: 0.88em;
+}
+.a-button .text-normal .--start {
+  color: var(--blueVibrant);
+}
+.a-button .icon {
+  font-weight: 800;
+}
+
+.btn-voluntario {
+  background-color: var(--white);
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.btn-voluntariados {
+  background-color: var(--phink);
+  display: block;
+  padding: 1.2em 2.6em;
+}
+.btn-voluntariados .text-normal {
+  font-size: 1em;
 }/*# sourceMappingURL=main.css.map */
