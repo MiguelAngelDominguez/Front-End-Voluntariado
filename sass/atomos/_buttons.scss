@@ -1,3 +1,33 @@
-.a-button{
-    display: flex;
+.a-button {
+    width: max-content;
+    padding: 0.9em 0.9em;
+    margin: 0.4em 0.2em;
+    .text-normal{
+        font-weight: var(--bold);
+        font-size: 0.88em;
+        .--start {
+            color: var(--blueVibrant);
+        }
+    }
+
+    .icon {
+        font-weight: 800;
+    }
+}
+
+.btn-voluntario {
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.btn-voluntariados{
+    background-color: var(--phink);
+    display: block;
+    padding: 1.2em 2.6em;
+    .text-normal{
+        font-size: 1em;
+    }
 }
