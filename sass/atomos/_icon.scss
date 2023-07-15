@@ -1,0 +1,29 @@
+.header_logo{
+    display: flex;
+    align-items: center;
+    .logo_img{
+        margin: 0.5em;
+        width: 2.7em;
+    }
+    .logo_text{
+        font-size: 2.7em;
+        color: var(--phink);
+        font-weight: var(--bold);
+    }
+}
+
+.header_burger{
+    background-color: var(--phink);
+    border-radius: 0.4em;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5em;
+    svg{
+        width: 2em;
+    }
+}
+
+.footer_content_icon{
+    margin: 0.5em;
+    width: 2em;
+}
