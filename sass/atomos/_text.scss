@@ -1,0 +1,61 @@
+.--white{
+    color: white;
+}
+
+.title-presentation{
+    text-align: center;
+}
+
+.title-help{
+    text-align: center;
+}
+
+.text-presentation{
+    color: var(--grayWhite);
+    text-align: center;
+}
+
+.title-section{
+    .--end{
+        color: var(--phink);
+    }
+}
+
+.title-promovate{
+    text-align: center;
+    .--end{
+        color: var(--phink);
+    }
+}
+
+.title-information-line{
+    text-align: center;
+    padding-inline: 1.5em;
+    h2{
+        border-block-end: 0.25em solid var(--phink);
+        padding-block-end: 0.65em;
+    }
+}
+
+.text-number{
+    color: var(--greenBluish);
+    font-size: 2em;
+    p{
+        font-weight: var(--bold);   
+    }
+}
+
+.text-normal-section{
+    font-weight: var(--regular);
+}
+
+.footer_link{
+    opacity: 80%;
+    font-weight: var(--regular);
+}
+
+.footer_text-importan{
+    font-weight: var(--semibold);
+    font-size: 1.5em;
+}
+
