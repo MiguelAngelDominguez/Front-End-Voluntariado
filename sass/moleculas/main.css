@@ -1,1 +1,336 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: var(--bold);
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.13em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.811em;
+}
+
+p {
+  font-size: 1em;
+  font-weight: var(--regular);
+}
+
+.caja {
+  border-radius: 0.6em;
+}
+
+.caja-shadow {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+:root {
+  --fontFamily: "Raleway", sans-serif;
+  --phink: #FF0054;
+  --phinkBlack: #800F2F;
+  --greenBluish: #06D6A0;
+  --greenBluish2: #06D6A0CC;
+  --blueVibrant: #4361EE;
+  --yellow: #FFE500;
+  --red: #D00000;
+  --red2: #D00000CC;
+  --greenLime: #2DC653;
+  --greenLime2: #2DC653CC;
+  --orange: #F48C06;
+  --orange2: #F48C06CC;
+  --white: #FFFFFF;
+  --grayWhite: #F3F3F3;
+  --black: #000000;
+  --blockTransparents: #000000CC;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+}
+
+.--white {
+  color: var(--white);
+}
+
+.--black {
+  color: var(--black);
+}
+
+.title-presentation {
+  text-align: center;
+}
+
+.title-h2 {
+  text-align: center;
+}
+
+.text-presentation {
+  color: var(--grayWhite);
+  text-align: center;
+}
+
+.title-section .--end {
+  color: var(--phink);
+}
+
+.title-promovate {
+  text-align: center;
+}
+.title-promovate .--end {
+  color: var(--phink);
+}
+
+.title-information-line {
+  text-align: center;
+  padding-inline: 1.5em;
+}
+.title-information-line h2 {
+  border-block-end: 0.25em solid var(--phink);
+  padding-block-end: 0.65em;
+}
+
+.text-number {
+  color: var(--greenBluish);
+  font-size: 2em;
+}
+.text-number p {
+  font-weight: var(--bold);
+}
+
+.text-normal-section {
+  font-weight: var(--regular);
+}
+
+.footer_link {
+  opacity: 80%;
+  font-weight: var(--regular);
+}
+
+.footer_text-importan {
+  font-weight: var(--semibold);
+  font-size: 1.5em;
+}
+
+.image-loveVoluntare {
+  width: 4.94em;
+  height: 4.94em;
+}
+
+.image-groupMen {
+  width: 6.45em;
+  height: 6.45em;
+}
+
+.image-profile-user {
+  border-radius: 50%;
+  width: 7.5em;
+  height: 7.5em;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+}
+.header_logo .logo_img {
+  margin: 0.5em;
+  width: 2.7em;
+}
+.header_logo .logo_text {
+  font-size: 2.7em;
+  color: var(--phink);
+  font-weight: var(--bold);
+}
+
+.header_burger {
+  display: inline-flex;
+  align-items: center;
+}
+.header_burger svg {
+  background-color: var(--phink);
+  margin-inline: 0.5em;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  width: 2.9em;
+}
+
+.icon_comunity svg {
+  width: 2.9em;
+  margin: 0.5em;
+}
+
+.footer_content_icon {
+  margin: 0.5em;
+  width: 2em;
+}
+
+.super-section_apply {
+  height: 42.5em;
+  background-color: var(--phink);
+  display: grid;
+}
+.super-section_apply .carousel-fade .carousel-inner {
+  height: 25.75em;
+  width: auto;
+  background-color: var(--white);
+  margin: 1em 0.5em 3em 0.5em;
+}
+.super-section_apply .carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.super-section_apply .carousel-fade .carousel-inner .item {
+  opacity: 0;
+}
+.super-section_apply .carousel-fade .carousel-inner .active {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+}
+.super-section_apply .carousel-fade .carousel-inner .next,
+.super-section_apply .carousel-fade .carousel-inner .prev,
+.super-section_apply .carousel-fade .carousel-inner .active.left,
+.super-section_apply .carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+
+.item:nth-child(1), .item:nth-child(2), .item:nth-child(3) {
+  background: transparent;
+}
+
+.a-button {
+  width: max-content;
+  padding: 0.9em 0.9em;
+  margin: 0.4em 0.2em;
+}
+.a-button .text-normal {
+  font-weight: var(--bold);
+  font-size: 0.88em;
+}
+.a-button .text-normal .--start {
+  color: var(--blueVibrant);
+}
+.a-button .icon {
+  font-weight: 800;
+}
+
+.btn-voluntario {
+  background-color: var(--white);
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.btn-voluntariados {
+  background-color: var(--phink);
+  display: block;
+  padding: 1.2em 2.6em;
+}
+.btn-voluntariados .text-normal {
+  font-size: 1em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  background-image: url(../../source/imgs/voluntario-background.png);
+  height: 568px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .conteiner_text {
+  width: 18em;
+  padding-inline: 1em;
+}
+.container .conteiner_text .title-presentation, .container .conteiner_text .text-presentation {
+  padding-block: 0.45em;
+}
+
+.section_buttons_helps {
+  background-color: var(--phink);
+  padding: 1em;
+}
+.section_buttons_helps .buttons {
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_comunity {
+  padding: 2.5em 1em;
+  display: grid;
+  justify-items: center;
+  grid-gap: 1em;
+  text-align: center;
+  line-height: 150%;
+}
+.section_comunity .text-normal-section {
+  width: 15em;
+}
+
+.super-section_apply .title-h2 {
+  width: 10em;
+  margin: 2.17em auto 1.2em;
+  line-height: 24px;
+}
+.super-section_apply .carousel-inner {
+  border-radius: 0.5em;
+  background-image: url(../../source/imgs/volunteering\ 2.png);
+  background-size: 6.4em;
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+.super-section_apply .carousel-inner .item {
+  margin: 0em 0.63em 5.65em 0.63em;
+  padding: 2em 0.5em 5em 0.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.super-section_apply .carousel-inner .item .title-promovate {
+  line-height: 40px;
+  width: 10em;
+}
+.super-section_apply .carousel-inner .item .text-normal-section {
+  margin-block: 0.5em;
+  line-height: 25px;
+}
+.super-section_apply .carousel-inner .item h3 {
+  margin-block: 0.5em;
+}/*# sourceMappingURL=main.css.map */

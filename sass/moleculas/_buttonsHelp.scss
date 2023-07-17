@@ -1,0 +1,10 @@
+.section_buttons_helps{
+    background-color: var(--phink);
+    padding: 1em;
+    .buttons{
+        margin: 1em auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

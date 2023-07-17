@@ -1,0 +1,14 @@
+.container{
+    background-image: url(../../source/imgs/voluntario-background.png);
+    height: 568px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .conteiner_text{
+        width: 18em;
+        padding-inline: 1em;
+        .title-presentation, .text-presentation{
+            padding-block: 0.45em;
+        }
+    }
+}
