@@ -1,0 +1,45 @@
+.super-section_apply{
+    // width: 30em;
+    height: 42.5em;
+    background-color: var(--phink);
+    display: grid;
+    .carousel-fade {
+        .carousel-inner {
+            height: 25.75em;
+            width: auto;
+            background-color: var(--white);
+            margin: 1em 0.5em 3em 0.5em;
+            .item {
+                transition-property: opacity;
+            }
+    
+            .item{
+                opacity: 0;
+            }
+    
+            .active{
+                opacity: 1;
+                position: absolute;
+                top: 0;
+            }
+    
+            .next,
+            .prev,
+            .active.left,
+            .active.right {
+                left: 0;
+                transform: translate3d(0, 0, 0);
+            }
+        }
+    }
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+.item:nth-child(1),.item:nth-child(2),.item:nth-child(3) {
+    background: transparent;
+}

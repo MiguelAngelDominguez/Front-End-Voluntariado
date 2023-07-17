@@ -1,12 +1,16 @@
 .--white{
-    color: white;
+    color: var(--white);
+}
+
+.--black{
+    color: var(--black);
 }
 
 .title-presentation{
     text-align: center;
 }
 
-.title-help{
+.title-h2{
     text-align: center;
 }
 
